@@ -1,20 +1,12 @@
 @font-face {
-    font-family: 'Oxanium-Light';
+    font-family: 'Oxanium';
     src: url(fonts/Oxanium-Light.woff);
 }
 
-@font-face {
-    font-family:'Oxanium-Medium';
-    src: url(fonts/Oxanium-Medium.woff);
-}
 
-@font-face {
-    font-family:'Oxanium-Regular';
-    src: url(fonts/Oxanium-Regular.woff);
-}
 body {
-    font-family: 'Oxanium-Light';
-    max-width: 1000px;
+    font-family: 'Oxanium';
+    max-width: 50%;
     margin-left: 500px;
     background-color: rgb(6,6,6);
     padding: 10px;
@@ -48,7 +40,7 @@ a:active {
 }
 
 nav {
-    font-family: Oxanium;
+    font-family: 'Oxanium';
     font-size: 18px;
     padding: 10px;
     text-align: right;
