@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Oxanium';
-    src: url(fonts/Oxanium-ExtraLight.ttf); 
+    font-family: 'Oxanium-Light';
+    src: url(fonts/Oxanium-Light.woff);
 }
 
 @font-face {
-    font-family:'Oxanium';
-    src: url(fonts/Oxanium-Light.ttf);
+    font-family:'Oxanium-Medium';
+    src: url(fonts/Oxanium-Medium.woff);
 }
 
 @font-face {
-    font-family:'Oxanium';
-    src: url(Oxanium-Bold.ttf);
+    font-family:'Oxanium-Regular';
+    src: url(fonts/Oxanium-Regular.woff);
 }
 body {
-    font-family: Oxanium;
+    font-family: 'Oxanium-Light';
     max-width: 1000px;
     margin-left: 500px;
     background-color: rgb(6,6,6);
