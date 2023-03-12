@@ -1,4 +1,17 @@
+@font-face {
+    font-family: 'Oxanium';
+    src: url(fonts/Oxanium-ExtraLight.ttf); 
+}
 
+@font-face {
+    font-family:'Oxanium';
+    src: url(fonts/Oxanium-Light.ttf);
+}
+
+@font-face {
+    font-family:'Oxanium';
+    src: url(Oxanium-Bold.ttf);
+}
 body {
     font-family: Oxanium;
     max-width: 1000px;
