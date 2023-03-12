@@ -1,0 +1,68 @@
+
+body {
+    font-family: Oxanium;
+    max-width: 1000px;
+    margin-left: 500px;
+    background-color: rgb(6,6,6);
+    padding: 10px;
+    text-align: center;
+}
+
+a:link {
+    color: turquoise;
+    text-decoration: none;
+}
+
+a:visited {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indianred;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+}
+
+nav {
+    font-family: Oxanium;
+    font-size: 18px;
+    padding: 10px;
+    text-align: right;
+    position: sticky;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video-container {
+    padding: 5px;
+}
+.video-container2 {
+    padding: 5px;
+}
+.intro {
+    color:lightgray;
+    display: flex;
+    font-size: 16px;
+}
+.heythere {
+    display: flex;
+    justify-content: space-evenly;
+}
+.credit {
+    color:lightgray;
+    font-size: 14px;
+}
