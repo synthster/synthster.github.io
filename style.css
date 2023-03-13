@@ -6,10 +6,12 @@
 
 body {
     font-family: 'Oxanium';
-    max-width: 60rem;
-    margin-left: 30rem;
-    background-color: rgb(6,6,6);
-    padding: 10px;
+    font-size: 1rem;
+    max-width: 62rem;
+    margin-left: 31rem;
+    background-size: 100%;
+    background-color: #060606;
+    padding: 0.6rem;
     text-align: center;
 }
 
@@ -41,8 +43,8 @@ a:active {
 
 nav {
     font-family: 'Oxanium';
-    font-size: 18px;
-    padding: 10px;
+    font-size: 1.125rem;
+    padding: 0.6rem;
     text-align: right;
 }
 
@@ -52,15 +54,15 @@ nav {
 }
 
 .video-container {
-    padding: 5px;
+    padding: 0.3rem;
 }
 .video-container2 {
-    padding: 5px;
+    padding: 0.3rem;
 }
 .intro {
     color:lightgray;
     display: flex;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .heythere {
     display: flex;
@@ -68,5 +70,5 @@ nav {
 }
 .credit {
     color:lightgray;
-    font-size: 14px;
+    font-size: 0.85rem;
 }
