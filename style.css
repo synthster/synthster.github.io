@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Oxanium';
-    max-width: 50%;
-    margin-left: 500px;
+    max-width: 60rem;
+    margin-left: 30rem;
     background-color: rgb(6,6,6);
     padding: 10px;
     text-align: center;
@@ -44,7 +44,6 @@ nav {
     font-size: 18px;
     padding: 10px;
     text-align: right;
-    position: sticky;
 }
 
 .videos {
