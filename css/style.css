@@ -3,18 +3,22 @@
     src: url(fonts/Oxanium-Light.woff);
 }
 
-
 body {
     color: lightgray;
     font-family: 'Oxanium';
     font-size: 1rem;
     max-width: 60rem;
     margin-left: 30rem;
-    background-size: 100%;
     background-color: #060606;
     padding: 0.6rem;
     text-align: center;
 }
+@media screen and (max-width: 1400px){
+    body {
+        margin-left: 0rem;
+    }
+
+} 
 
 a:link {
     color: turquoise;
@@ -57,19 +61,23 @@ nav {
 .video-container {
     padding: 0.3rem;
 }
+
 .video-container2 {
     padding: 0.3rem;
 }
+
 .intro {
-    color:lightgray;
+    color: lightgray;
     display: flex;
     font-size: 1rem;
 }
+
 .heythere {
     display: flex;
     justify-content: space-evenly;
 }
+
 .credit {
-    color:lightgray;
+    color: lightgray;
     font-size: 0.85rem;
 }
