@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Oxanium-Light';
+    font-family: 'Oxanium';
     src: url(fonts/Oxanium-Light.woff);
 }
 
 body {
     color: lightgray;
-    font-family: 'Oxanium-Light';
+    font-family: 'Oxanium';
     font-size: 1rem;
     max-width: 60rem;
     margin-left: 30rem;
@@ -47,7 +47,7 @@ a:active {
 }
 
 nav {
-    font-family: 'Oxanium-Light';
+    font-family: 'Oxanium';
     font-size: 1.125rem;
     padding: 0.6rem;
     text-align: right;
