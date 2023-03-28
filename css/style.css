@@ -19,9 +19,21 @@ body {
     }
     
 } 
+@media screen and (min-width: 2000px){
+    body {
+        margin-left: 33%;
+    }
+}
 @media screen and (max-width: 800px){
+    body {
+        min-width: 30rem;
+    }
+    nav {
+        text-align: center;
+    }
     .videos {
         flex-direction: column;
+        min-width: 200px;
     }
     .heythere {
         flex-direction: column;
