@@ -17,9 +17,16 @@ body {
     body {
         margin-left: 0rem;
     }
-
+    
 } 
-
+@media screen and (max-width: 800px){
+    .videos {
+        flex-direction: column;
+    }
+    .heythere {
+        flex-direction: column;
+    }
+}
 a:link {
     color: turquoise;
     text-decoration: none;
